@@ -1,0 +1,682 @@
+/*!* Google Fonts *!*/
+/*@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");*/
+/*@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');*/
+
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*:root {*/
+/*    --main-color: #e76f51;*/
+/*    --sec-color: #2a9d8f;*/
+/*    --btnhover-color: #318077;*/
+/*    --font-family: "Playfair Display", sans-serif;*/
+/*}*/
+
+/*::-webkit-scrollbar {*/
+/*    width: 8px;*/
+/*}*/
+
+/*::-webkit-scrollbar-thumb {*/
+/*    background-color: var(--sec-color);*/
+/*    border-radius: 8px;*/
+/*}*/
+
+/*.container {*/
+/*    max-width: 2100px;*/
+/*    margin: auto;*/
+/*}*/
+
+/*a {*/
+/*    text-decoration: none;*/
+/*    color: inherit;*/
+/*}*/
+
+/*.flex {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+
+/*li {*/
+/*    list-style: none;*/
+/*}*/
+
+/*body {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+
+/*    font-family: 'Playfair Display', 'sans-serif';*/
+/*    transition: 0.4s ease;*/
+/*    scroll-behavior: smooth;*/
+/*}*/
+
+/*header, footer {*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*header {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    z-index: 999;*/
+/*}*/
+
+/*h2 {*/
+/*    font-family: 'Leaves And Ground', sans-serif;*/
+/*    font-size: 60px;*/
+/*    font-weight: 500;*/
+/*    color: black;*/
+/*}*/
+
+/*!* mainnav *!*/
+
+/*.mainnav {*/
+/*    width: 100%;*/
+/*    height: 90px;*/
+/*    position: sticky;*/
+/*    top: 0;*/
+/*    background-color: #f5f5f5;*/
+/*    box-shadow: 0 0 5px #999;*/
+/*    z-index: 9999;*/
+/*    transition: 0.5s ease-in-out;*/
+/*}*/
+
+/*!* for fixednavbar *!*/
+
+/*.sticky{*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    height: 70px;*/
+/*    transition: 0.5s ease-in-out;*/
+/*}*/
+
+/*.mainnav .container {*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background-color: transparent;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+/*.logo {*/
+/*    gap: 5px;*/
+/*}*/
+
+/*.logo h1 a {*/
+/*    font-size: 28px;*/
+/*    font-family: fantasy;*/
+/*    text-transform: uppercase;*/
+/*    font-weight: 600;*/
+/*    color: #e76f51;*/
+/*    cursor: pointer;*/
+/*    transition: 0.2s ease;*/
+/*    letter-spacing: 2px;*/
+/*}*/
+
+/*.logo h1 span {*/
+/*    color: var(--sec-color);*/
+/*}*/
+
+/*.navlist {*/
+/*    gap: 30px;*/
+/*    margin-right: 200px;*/
+/*    transition: 0.3s ease-in-out;*/
+/*}*/
+
+/*.navlist li a {*/
+/*    font-size: 18px;*/
+/*    font-weight: 600;*/
+/*    color: #2c2b2b;*/
+/*}*/
+
+/*.navlist li a:hover {*/
+/*    color: var(--main-color);*/
+/*}*/
+
+/*.container a i:hover {*/
+/*    color: var(--main-color);*/
+/*}*/
+
+/*!* searchbar darkmode and search input*!*/
+
+/*.toggle {*/
+/*    --bg-toggle: hsl(0, 0%, 96%);*/
+/*    --bg-circle: #2a9d8f;*/
+/*    width: 60px;*/
+/*    height: 30px;*/
+/*    background-color: var(--bg-toggle);*/
+/*    box-shadow: 0 0 5px #555;*/
+/*    border-radius: 4rem;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    padding: 0 .3rem;*/
+/*    transition: background-color 400ms;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.toggle__circle {*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    cursor: pointer;*/
+/*    background-color: var(--bg-circle);*/
+/*    border-radius: 50%;*/
+/*    position: relative;*/
+/*    transition: margin 400ms ease-in-out, background-color 1000ms;*/
+/*}*/
+
+/*.toggle__circle::after,*/
+/*.toggle__circle::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    background-color: var(--bg-toggle);*/
+/*    bottom: 134%;*/
+/*    transform-origin: bottom left;*/
+/*}*/
+
+/*.toggle__circle::before {*/
+/*    width: 9px;*/
+/*    height: 18px;*/
+/*    left: 32%;*/
+/*    border-radius: 0 100% 0 100% / 0 27% 73% 100%;*/
+/*    transform: translateX(-70%) rotate(-2deg);*/
+/*}*/
+
+/*.toggle__circle::after {*/
+/*    width: 16px;*/
+/*    height: 19px;*/
+/*    left: 57%;*/
+/*    border-radius: 100% 0 100% 0 / 100% 0 100% 0;*/
+/*    transform: rotate(-20deg);*/
+/*}*/
+
+/*#checkbox:checked + .toggle > .toggle__circle {*/
+/*    margin-left: calc(90px - (.3rem * 2) - 50px);*/
+/*}*/
+
+/*#checkbox:checked + .toggle {*/
+/*    --bg-toggle: #2a9d8f;*/
+/*    --bg-circle: hsl(0, 0%, 96%);*/
+/*}*/
+
+/*.searchbar {*/
+/*    gap: 20px;*/
+/*    margin-right: 15px;*/
+/*}*/
+
+/*.searchbar i {*/
+/*    font-size: 25px;*/
+/*    color: #555;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.searchbar i:hover {*/
+/*    color: var(--main-color);*/
+/*}*/
+
+/*!* navbar ul on off when display 500px on mobile device*!*/
+
+/*.navonoff {*/
+/*    display: none; !* display block when width 500px in js*!*/
+/*}*/
+
+/*#checkbox2 {*/
+/*    display: none;*/
+/*}*/
+
+/*.toggle2 {*/
+/*    position: relative;*/
+/*    width: 40px;*/
+/*    cursor: pointer;*/
+/*    margin: auto;*/
+/*    display: block;*/
+/*    height: calc(4px * 3 + 11px *2);*/
+/*}*/
+
+/*.bar {*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    height: 4px;*/
+/*    border-radius: calc(4px / 2);*/
+/*    background: #111;*/
+/*    color: inherit;*/
+/*    opacity: 1;*/
+/*    transition: none 0.35s cubic-bezier(.5, -0.35, .35, 1.5)0s;*/
+/*}*/
+
+/*!* spin animation *!*/
+
+/*.bar--top {*/
+/*    bottom: calc(50% + 11px + 4px/ 2);*/
+/*    transition-property: bottom, transform;*/
+/*    transition-delay: calc(0s + 0.35s), 0s;*/
+/*}*/
+
+/*.bar--middle {*/
+/*    top: calc(50% - 4px/ 2);*/
+/*    transition-property: opacity;*/
+/*    transition-delay: calc(0s + 0.35s);*/
+/*}*/
+
+/*.bar--bottom {*/
+/*    top: calc(50% + 11px + 4px/ 2);*/
+/*    transition-property: top, transform;*/
+/*    transition-delay: calc(0s + 0.35s), 0s;*/
+/*}*/
+
+/*#checkbox2:checked + .toggle2 .bar--middle {*/
+/*    opacity: 0;*/
+/*    transition-duration: 0s;*/
+/*    transition-delay: calc(0s + 0.35s);*/
+/*}*/
+
+/*#checkbox2:checked + .toggle2 .bar--top {*/
+/*    bottom: calc(50% - 4px/2);*/
+/*    transform: rotate(135deg);*/
+/*    transition-delay: 0s, calc(0s + 0.35s);*/
+/*}*/
+
+/*#checkbox2:checked + .toggle2 .bar--bottom {*/
+/*    top: calc(50% - 4px/2);*/
+/*    transform: rotate(225deg);*/
+/*    transition-delay: 0s, calc(0s + 0.35s);*/
+/*}*/
+
+/*.searchinput {*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    !* have to change *!*/
+/*    background-color: #e76f51;*/
+/*    overflow: hidden;*/
+/*    padding: 5px 0;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.searchinput input {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    border-radius: 10px;*/
+/*    font-size: 15px;*/
+/*    font-weight: 600;*/
+/*    padding: 10px;*/
+/*}*/
+
+/*.searchinput i {*/
+/*    font-size: 18px;*/
+/*    width: 25px;*/
+/*    height: 25px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    background-color: #fff;*/
+/*    color: #111;*/
+/*    box-shadow: 0 0 5px #999;*/
+/*    border-radius: 5px;*/
+/*    margin-right: 5px;*/
+/*    transition: 0.3s ease;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.searchinput i:hover {*/
+/*    background-color: var(--main-color);*/
+/*}*/
+
+
+/*!* main start *!*/
+
+/*.headerimg {*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    background: url('../assets/img/snacks_header.jpg') no-repeat center;*/
+/*    background-size: cover;*/
+/*    z-index: 1;*/
+/*    transition: 0.3s ease;*/
+/*}*/
+
+/*.headerimg .container {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
+
+/*.headerimg::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background-color: #111;*/
+/*    opacity: 0.5;*/
+/*    z-index: -1;*/
+/*    transition: background-color .3s;*/
+/*}*/
+
+/*.headerinfo {*/
+/*    flex-direction: column;*/
+/*    align-items: flex-start;*/
+/*    gap: 25px;*/
+/*    z-index: 9;*/
+/*    color: #ffffff;*/
+/*    padding-top: 8rem;*/
+/*    padding-bottom: 13rem;*/
+/*}*/
+
+/*.headertitle {*/
+/*    font-size: 120px;*/
+/*    color: #ffffff;*/
+/*    font-weight: 500;*/
+/*    font-family: 'Leaves And Ground', sans-serif;*/
+/*    margin-left: 15vh;*/
+/*}*/
+
+/*.headerpera {*/
+/*    font-size: 30px;*/
+/*    padding-right: 22rem;*/
+/*    color: #ffff;*/
+/*    margin-left: 15vh;*/
+/*}*/
+
+/*!* featured recipe title *!*/
+
+/*.featuredrecipe {*/
+/*    flex-direction: column;*/
+/*    flex-wrap: wrap;*/
+/*    margin-top: 9rem;*/
+/*    padding: 0 20px;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.featuredtitles {*/
+/*    flex-direction: column;*/
+/*    gap: 18px;*/
+/*}*/
+
+/*.titleicon {*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    display: inline-flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.titleicon img{*/
+/*    width: 20%;*/
+/*    height: 20%;*/
+/*}*/
+
+/*.titleicon::before {*/
+/*    content: '';*/
+/*    width: 20%;*/
+/*    height: 6px;*/
+/*    background: #ff6767 ;*/
+/*    background: linear-gradient(to right, transparent, #ff6767);*/
+/*    margin-right: 20px;*/
+/*}*/
+
+/*.titleicon::after {*/
+/*    content: '';*/
+/*    width: 20%;*/
+/*    height: 6px;*/
+/*    background: #ff6767 ;*/
+/*    background: linear-gradient(to right, #ff6767, transparent);*/
+/*    margin-right: 20px;*/
+/*}*/
+
+/*.featuredtitles h1 {*/
+/*    font-family: var(--font-family);*/
+/*    font-size: 45px;*/
+/*    color: #111;*/
+/*}*/
+
+/*.featuredtitles p {*/
+/*    max-width: 600px;*/
+/*    text-align: center;*/
+/*    font-weight: 600;*/
+/*    font-size: 17px;*/
+/*    color: black;*/
+/*    font-family: "Playfair Display",'sans-serif';*/
+/*}*/
+
+/*!* threecards *!*/
+
+/*.threecards {*/
+/*    gap: 25px;*/
+/*    padding: 0 20px;*/
+/*    margin-top: 6rem;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    !*justify-content: space-between;*!*/
+/*}*/
+/*.main-cards{*/
+/*    margin: 0 auto;*/
+/*    background-color: #f5f5f5;*/
+/*    width: 1200px;*/
+/*    height: auto;*/
+/*    !*background-color: black;*!*/
+/*}*/
+
+/*.tcard {*/
+/*    position: relative;*/
+/*    width: calc(33% - 20px); !* Adjust the width and gap as needed *!*/
+/*    height: auto;*/
+/*    overflow: hidden;*/
+/*    box-shadow: 0 0 10px grey;*/
+/*    border-radius: 8px;*/
+/*    padding: 20px;*/
+/*    box-sizing: border-box;*/
+/*    margin-bottom: 80px;*/
+/*}*/
+
+/*.tcardimg {*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    height: 190px;*/
+/*    overflow: hidden;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*.tcardimg img {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    object-fit: cover;*/
+/*    border-radius: 5px;*/
+/*    transition: 0.3s ease;*/
+/*}*/
+
+/*.tcard:hover .tcardimg img {*/
+/*    transform: scale(1.1);*/
+/*}*/
+
+/*.tcardimg span {*/
+/*    position: absolute;*/
+/*    top: 1%;*/
+/*    right: 1%;*/
+/*    padding: 10px;*/
+/*    border-radius: 5px;*/
+/*    color: #c9c5c5;*/
+/*}*/
+
+/*.tcardimg span:hover {*/
+/*    cursor: pointer;*/
+/*    color: red;*/
+/*}*/
+
+/*.tcardinfo {*/
+/*    position: relative;*/
+/*    margin-top: 10px;*/
+/*    flex-direction: column;*/
+/*    gap: 15px;*/
+/*    padding: 5px;*/
+/*}*/
+
+/*.tlabel {*/
+/*    color: brown;*/
+/*    font-weight: 600;*/
+/*    font-size: 13px;*/
+/*}*/
+
+/*.tcardinfo h2 {*/
+/*    font-size: 20px;*/
+/*    color: #222;*/
+/*    text-align: center;*/
+/*    text-transform: capitalize;*/
+/*    font-family: var(--font-family);*/
+/*}*/
+
+/*.star-rating {*/
+/*    display: flex;*/
+/*}*/
+
+/*.bxs-star {*/
+/*    color: orange;*/
+/*}*/
+
+/*.checked {*/
+/*    color: orange;*/
+/*}*/
+
+/*.tcardinfo p {*/
+/*    font-size: 14px;*/
+/*    line-height: 22px;*/
+/*    color: #444;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.tcardinfo ul {*/
+/*    gap: 12px;*/
+/*}*/
+
+/*.tcardinfo ul li {*/
+/*    font-size: 12px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.tcardinfo ul li i {*/
+/*    margin-right: 5px;*/
+/*    color: #565656;*/
+/*}*/
+
+/*.tcardinfo ul li:hover {*/
+/*    color: brown;*/
+/*}*/
+
+/*.tcardbtn {*/
+/*    position: relative;*/
+/*    background-color: var(--sec-color);*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*    padding: 10px;*/
+/*    border-radius: 8px;*/
+/*    color: #fff;*/
+/*    font-weight: 600;*/
+/*    transition: 0.3s ease;*/
+/*    overflow: hidden;*/
+/*    z-index: 1;*/
+/*}*/
+
+/*.tcardbtn:hover {*/
+/*    background-color: #318077;*/
+/*    color: #fff;*/
+/*}*/
+
+/*!* explore quick recipes *!*/
+/*.quickrecipe-title {*/
+/*    flex-direction: column;*/
+/*    margin-top: 30px;*/
+/*}*/
+
+/*.quickrecipe-title p {*/
+/*    max-width: 600px;*/
+/*    text-align: center;*/
+/*    font-weight: 600;*/
+/*    font-size: 17px;*/
+/*    color: black;*/
+/*    font-family: "Playfair Display",'sans-serif';*/
+/*}*/
+
+/*.explorerecipe {*/
+/*    gap: 25px;*/
+/*    padding: 0 20px;*/
+/*    margin-top: 10rem;*/
+/*    margin-bottom: 8rem;*/
+/*    !*background-color: black;*!*/
+/*}*/
+
+/*!* footer *!*/
+
+/*footer {*/
+/*    width: 100%;*/
+/*    background-color: #003049;*/
+/*    color: #fff;*/
+/*}*/
+
+/*.footer {*/
+/*    padding: 1rem 0;*/
+/*    gap: 20px;*/
+/*    align-items: flex-start;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+
+/*.footer .container {*/
+/*    flex-direction: column;*/
+/*    align-items: flex-start;*/
+/*}*/
+
+/*.footerlogo {*/
+/*    width: 36%;*/
+/*    overflow: hidden;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 20px;*/
+/*    margin-right: 5.4rem;*/
+/*}*/
+
+/*.footernav {*/
+/*    width: 13%;*/
+/*    margin-right: 100px;*/
+/*}*/
+
+/*.footernav:last-child {*/
+/*    margin-right: 0;*/
+/*}*/
+
+/*.footerlogo h2 {*/
+/*    color: #ffffff;*/
+/*}*/
+
+/*.footerlogo p {*/
+/*    font-size: 16px;*/
+/*    color: #999;*/
+/*}*/
+
+/*.footernav h3 {*/
+/*    font-size: 22px;*/
+/*    margin-bottom: 30px;*/
+/*    font-family: var(--font-family);*/
+/*}*/
+
+/*.footernav ul {*/
+/*    flex-direction: column;*/
+/*    gap: 15px;*/
+/*    align-items: flex-start;*/
+/*}*/
+
+/*.footernav ul li a {*/
+/*    font-size: 16px;*/
+/*    font-weight: 500;*/
+/*    transition: 0.3s ease;*/
+/*    color: #999;*/
+/*}*/
+
+/*.footernav ul li a:hover {*/
+/*    color: var(--main-color);*/
+/*}*/

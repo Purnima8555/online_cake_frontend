@@ -1,0 +1,360 @@
+// Form design
+// function Home() {
+//     return (
+         <>
+             <h2>Student Details</h2>
+             <form method="post">
+                 <table>
+                     <tr>
+                         <td>Full Name:</td>
+                         <td><input type="text" value="" /></td>
+                     </tr>
+                     <tr>
+                         <td>ID:</td>
+                         <td><input type="text" value="" /></td>
+                         <td><input type="text" value="" /></td>
+                         <td><input type="text" value="" placeholder="(DD-MM-YYYY)" /></td>
+                     </tr>
+                     <tr>
+                         <td>Age</td>
+                         <td><input type="text" value="" /></td>
+                     </tr>
+                     <tr>
+                         <td>Gender:</td>
+                         <td><input type="radio" name="Gender" value="Male" />Male</td>
+                         <td><input type="radio" name="Gender" value="Female" />Female</td>
+                     </tr>
+                     <tr>
+                         <td>Interested Modules</td>
+                     </tr>
+                     <tr>
+                         <td><input type="checkbox" name="module1" />Module 1</td>
+                     </tr>
+                     <tr>
+                         <td><input type="checkbox" name="module2" />Module 2</td>
+                     </tr>
+                     <tr>
+                         <td><input type="checkbox" name="module3" />Module 3</td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <select name="batch">
+                                 <option>batch 1</option>
+                                 <option>batch 2</option>
+                                 <option>batch 3</option>
+                             </select>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td><input type="text" value="" /></td>
+                     </tr>
+                     <tr>
+                         <td><input type="submit" value="Submit"/></td>
+                         <td><input type="reset" value="Reset"/></td>
+                     </tr>
+                 </table>
+             </form>
+         </>
+//     );
+// }
+// export default Home;
+
+
+// Normal title
+// function Home(){
+//     return (
+//         <div className="Container">
+//             <header>
+//                 <h1>Online_Cake</h1>
+//                 <nav>
+//                     <ul>
+//                         <li><a href="/">Home</a></li>
+//                         <li><a href="/about">About</a></li>
+//                     </ul>
+//                 </nav>
+//             </header>
+//             <main>
+//                 {/* Main content goes here */}
+//             </main>
+//             <footer>
+//                 {/* Footer content goes here */}
+//             </footer>
+//         </div>
+//     )
+// }
+//
+// export default Home;
+
+
+// import "./Home.css"
+//
+// function Home(){
+//     // js code
+//     // alert("Home")
+//
+//     return (
+//         // html
+//         <body>
+//         <div className="container">
+//             <div className="navbar">
+//                 <div className="logo"></div>
+//                 <div className="search-box"></div>
+//                 <div className="button-container">
+//                     <div className="btn1"></div>
+//                     <div className="btn2"></div>
+//                 </div>
+//             </div>
+//             <div className="contents">
+//                 <div className="content-column">
+//                     <div className="list-title"></div>
+//                     <div className="list-box"></div>
+//                 </div>
+//                 <div className="content-box">
+//                     <div className="box1">
+//                         <div className="image">
+//                             <div className="pic-frame"></div>
+//                             <div className="box1"></div>
+//                             <div className="box2"></div>
+//                         </div>
+//                         <div className="info-box"></div>
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//         </body>
+//     )
+// }
+//
+// export default Home;
+//
+
+
+p {color: red}*/
+
+/*body {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    min-height: 100vh;*/
+/*    background: url("online_web_app_frontend/src/assets/background1.jpg");*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    margin: 0;*/
+/*}*/
+
+/*.container {*/
+/*    width: 1512px;*/
+/*    height: 700px;*/
+/*    background: mediumblue;*/
+/*    display: flex;*/
+/*    flex-direction: column; !* Stack child elements vertically *!*/
+/*}*/
+
+/*.navbar {*/
+/*    width: 100%;*/
+/*    height: 200px;*/
+/*    background: royalblue;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    margin-top: 9px;*/
+/*}*/
+
+/*.logo {*/
+/*    position: relative;*/
+/*    width: 250px;*/
+/*    height: 170px;*/
+/*    background: mediumblue;*/
+/*    margin-left: 15px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.search-box {*/
+/*    position: relative;*/
+/*    width: 550px;*/
+/*    height: 55px;*/
+/*    background: mediumblue;*/
+/*    margin-left: 130px;*/
+/*    display: flex;*/
+/*}*/
+
+/*.button-container {*/
+/*    position: relative;*/
+/*    width: 450px;*/
+/*    height: 170px;*/
+/*    background: mediumblue;*/
+/*    margin-left: 100px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.btn1 {*/
+/*    position: relative;*/
+/*    width: 200px;*/
+/*    height: 120px;*/
+/*    background: royalblue;*/
+/*    margin-left: 16px;*/
+/*    display: flex;*/
+/*}*/
+
+/*.btn2 {*/
+/*    position: relative;*/
+/*    width: 200px;*/
+/*    height: 120px;*/
+/*    background: royalblue;*/
+/*    margin-left: 15px;*/
+/*    display: flex;*/
+/*}*/
+
+/*.contents {*/
+/*    width: 100%;*/
+/*    height: 475px;*/
+/*    background: royalblue;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    margin-top: 10px; !* Adjusted margin-top *!*/
+/*}*/
+
+/*.content-column {*/
+/*    position: relative;*/
+/*    width: 400px;*/
+/*    height: 450px;*/
+/*    background: mediumblue;*/
+/*    display: flex;*/
+/*    flex-direction: column; !* Stack child elements vertically *!*/
+/*    align-items: flex-start; !* Align items to the start (left) *!*/
+/*    margin-left: 15px;*/
+/*}*/
+
+/*.list-title {*/
+/*    position: relative;*/
+/*    width: 370px;*/
+/*    height: 80px;*/
+/*    background: royalblue;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    margin-top: 15px;*/
+/*    margin-bottom: 15px;*/
+/*    margin-left: 15px;*/
+/*}*/
+
+/*.list-box {*/
+/*    position: relative;*/
+/*    width: 370px;*/
+/*    height: 350px;*/
+/*    background: royalblue;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    margin-bottom: 15px;*/
+/*    margin-left: 15px;*/
+/*}*/
+
+/*.content-box {*/
+/*    position: relative;*/
+/*    width: 1065px;*/
+/*    height: 450px;*/
+/*    background: mediumblue;*/
+/*    margin-left: 17px;*/
+/*    display: flex;*/
+/*    flex-direction: column; !* Stack child elements vertically *!*/
+/*    align-items: flex-start; !* Align items to the start (left) *!*/
+/*}*/
+
+/*.box1 {*/
+/*    width: 1020px;*/
+/*    height: 320px;*/
+/*    background: royalblue;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    margin-left: 15px;*/
+/*    margin-top: 15px;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
+/*!*.image {*!*/
+/*!*    position: relative;*!*/
+/*!*    width: 400px;*!*/
+/*!*    height: 450px;*!*/
+/*!*    background: mediumblue;*!*/
+/*!*    display: flex;*!*/
+/*!*    flex-direction: column; !* Stack child elements vertically *!*!*/
+/*!*    align-items: flex-start; !* Align items to the start (left) *!*!*/
+/*!*    margin-left: 15px;*!*/
+/*!*}*!*/
+
+/*!*.info-box {*!*/
+/*!*    position: relative;*!*/
+/*!*    width: 1020px;*!*/
+/*!*    height: 280px;*!*/
+/*!*    background: mediumblue;*!*/
+/*!*    margin-left: 15px;*!*/
+/*!*    display: flex;*!*/
+/*!*    align-items: center;*!*/
+/*!*}*!
+
+#{} -id selector
+.{} -class selector
+p{}-tag selector
+* {} -whole page {mostly used for font style}
+
+
+import "./Home.css";
+// import React from "react";
+
+function Home() {
+    return (
+        <body>
+
+        <header>
+
+        </header>
+
+        <div className="allbackground">
+            <div className="container">
+                <div className="text_img">
+                    <div className="text">
+                        <h1>Get Started With<br/>Your</h1>
+                        <h3><span>Cooking Journey</span></h3>
+                    </div>
+                    <div className="gif_space">
+                        {/*<img src="cooking_gif.gif" height=60px, width="60px"/>*/}
+                    </div>
+                </div>
+                <div className="wrapper">
+                    {/*<span className="icon-close"><ion-icon name="close"></ion-icon></span>*/}
+                    <div className="form-box login">
+                        <h2>LOGIN</h2>
+                        <form action="#">
+                            <div className="input-box">
+                                {/*<span className="icon"><ion-icon name="mail"></ion-icon></span>*/}
+                                <input type="email" required/>
+                                    <label>Email</label>
+                            </div>
+                            <div className="input-box">
+                                {/*<span className="icon"><ion-icon name="lock-closed"></ion-icon></span>*/}
+                                <input type="password" required/>
+                                    <label>Password</label>
+                            </div>
+                            <div className="remember-forgot">
+                                <label><input type="checkbox"/>Remember me</label>
+                                <a href="#">Forgot Password?</a>
+                            </div>
+                            <button type="submit" className="btn">Login</button>
+                            <div className="login-register">
+                                <p>Don't have an account?<a href="#" className="register-link">Register</a></p>
+                                <a href="Admin_Login.html">SignIn as Admin</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="User_Login.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        </body>
+    );
+}
+
+export default Home;
